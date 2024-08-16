@@ -7,8 +7,6 @@
 *  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
 * 
 *  Name: Luckshihaa Krishnan  Student ID: 186418216   Date: 01/19/2024
-*
-*  Published URL: https://web422-assignment1-htoc.onrender.com
 
 ********************************************************************************/
 
