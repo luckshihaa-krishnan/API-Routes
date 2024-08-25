@@ -7,6 +7,8 @@
 *  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
 * 
 *  Name: Luckshihaa Krishnan  Student ID: 186418216   Date: 01/19/2024
+*
+*  Published URL: https://web422-assignment1-htoc.onrender.com
 
 ********************************************************************************/
 
@@ -33,12 +35,13 @@ app.get('/', (req, res) => {
 //GET /api/listings
 app.get("/api/listings", async (req,res) => {
     try {
-      const lists = await db.getAllListings(2,10);
-      res.json(lists);
-    } catch{
-      res.json({message: 'Error'})
+        const lists = await db.getAllListings(2,10);
+        res.json(lists);
+    }catch{
+        res.json({message: 'Error'})
     }
 });
+
 
 //GET /api/listings/(_id value)
 app.get("/api/listings/:id", async (req,res) => {
@@ -98,26 +101,3 @@ db.initialize(process.env.MONGODB_CONN_STRING).then(()=>{
     console.log(err);
 });
 
-
-/*
-//201
-app.use((req, res) => {
-    res.status(201).send('Resource created');
-});
-
-//204
-app.use((req, res) => {
-    res.status(204).send('Resource contains no content');
-});
-
-//404
-app.use((req, res) => {
-    res.status(404).send('Resource not found');
-});
-
-//500
-app.use((req, res) => {
-    res.status(500).send('Internal server error');
-});
-
-*/
