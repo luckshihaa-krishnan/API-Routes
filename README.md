@@ -10,13 +10,13 @@
 
   The possible routes are:
 
-  GET:
+  GET: <br/>
   &nbsp; &nbsp; &nbsp; - /  <br/>
-  &nbsp; &nbsp; &nbsp; - /api/listings
-  &nbsp; &nbsp; &nbsp; - /api/listings/:id 
-  POST:
-  &nbsp; &nbsp; &nbsp; - /api/listings
-  PUT:
-  &nbsp; &nbsp; &nbsp; - /api/listings/:id 
-  DELETE:
-  &nbsp; &nbsp; &nbsp; - /api/listings/:id 
+  &nbsp; &nbsp; &nbsp; - /api/listings <br/>
+  &nbsp; &nbsp; &nbsp; - /api/listings/:id  <br/>
+  POST: <br/>
+  &nbsp; &nbsp; &nbsp; - /api/listings <br/>
+  PUT: <br/>
+  &nbsp; &nbsp; &nbsp; - /api/listings/:id <br/>
+  DELETE: <br/>
+  &nbsp; &nbsp; &nbsp; - /api/listings/:id  <br/>
