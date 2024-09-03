@@ -1,6 +1,6 @@
-# WEB422-Assgn1  (change name)
+## API ROUTES
 
-https://luckshihaakrishnan-apiroutes.onrender.com
+### Published URL : https://luckshihaakrishnan-apiroutes.onrender.com
 
 - write possible routes (GET, POST, PUT, DELETE)
 
