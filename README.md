@@ -11,7 +11,7 @@
   The possible routes are:
 
   GET:
-      - /
+  &nbsp; &nbsp; &nbsp; - /
       - /api/listings
       - /api/listings/:id 
   POST:
