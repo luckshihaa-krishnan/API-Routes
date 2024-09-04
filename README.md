@@ -2,9 +2,10 @@
 
 #### Published URL : https://luckshihaakrishnan-apiroutes.onrender.com
 
-This application was the first project I did in the course and the main focus in this project is using API (Application Programming Interface) routes. While using API, I added some HTTP (Hypertext Transfer Protocol) request methods such as GET, POST, PUT and DELETE in order to view, add, update or delete IDs.
+This application was the first project I did in the course and the main focus in this project is using API (Application Programming Interface) routes. While using API, I added some HTTP (Hypertext Transfer Protocol) request methods such as GET, POST, PUT and DELETE in order to view, add, update or delete IDs. The data in this application contains unique IDs, listng urls, name, summary, etc.
 
-- write summary of application
+The command node server.js is used to run the application, since in package.json, the main is server.js
+
 - write steps of running the application  (node server.js) (localhost:3000, or depending on port)
 
   The possible routes are:
