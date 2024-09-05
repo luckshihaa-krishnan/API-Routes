@@ -6,8 +6,7 @@ This application was the first project I did in the course and the main focus in
 
 The command, 'node server.js', is used to run the application as the main is server.js in package.json. In the terminal, it will display a message such as what port it will be. In this application, it will be running on port 8080. To see the application running, type 'localhost:8080' in the browser. Since this application has many possible routes, I can do localhost:8080/api/listings or localhost:8080/api/listings/:id to view all the listings or a specific ID.
 
-  The possible routes are:
-
+  ###### The possible routes are:
   GET: <br/>
   &nbsp; &nbsp; &nbsp; - /  <br/>
   &nbsp; &nbsp; &nbsp; - /api/listings <br/>
